@@ -9,16 +9,16 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Heb ik recht op vervoerskosten?",
-        value: "Heb ik recht op vervoerskosten?"
+        text: "Heeft een werknemer recht op een tussenkomst voor reiskosten?",
+        value: "Heeft een werknemer recht op een tussenkomst voor reiskosten?"
     },
     { 
-        text: "Heb ik een aanvullend pensioen?", 
-        value: "Heb ik een aanvullend pensioen?" 
+        text: "Heeft een werknemer recht op een aanvullend pensioen?", 
+        value: "Heeft een werknemer recht op een aanvullend pensioen?" 
     },
     { 
-        text: "Welke regels zijn er rondom ontslag?", 
-        value: "Welke regels zijn er rondom ontslag?" 
+        text: "Geniet een werknemer ontslagbescherming?", 
+        value: "Geniet een werknemer ontslagbescherming?" 
     }
 ];
 
