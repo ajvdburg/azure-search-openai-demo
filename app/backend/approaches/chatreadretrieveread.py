@@ -36,9 +36,9 @@ Each source has a name followed by colon and the actual information, always incl
 """
     follow_up_questions_prompt_content = """Generate 3 very brief follow-up questions that the user would likely ask next.
 Enclose the follow-up questions in double angle brackets. Example:
-<<Are there exclusions for workers under a certain age?>>
-<<Are the legal agreements bound to a certain date and time?>>
-<<What are additional documents that might be interesting?>>
+<<Are there exclusions for prescriptions?>>
+<<Which pharmacies can be ordered from?>>
+<<What is the limit for over-the-counter medication?>>
 Do no repeat questions that have already been asked.
 Make sure the last question ends with ">>"."""
 
@@ -51,10 +51,10 @@ Do not include any special characters like '+'.
 If you cannot generate a search query, return just the number 0.
 """
     query_prompt_few_shots = [
-        {"role": USER, "content": "What are my legal rights?"},
-        {"role": ASSISTANT, "content": "Show available contract documents"},
-        {"role": USER, "content": "Does my contract cover meal coupons?"},
-        {"role": ASSISTANT, "content": "Meal coupons covered in contract"},
+        {"role": USER, "content": "What are my health plans?"},
+        {"role": ASSISTANT, "content": "Show available health plans"},
+        {"role": USER, "content": "does my plan cover cardio?"},
+        {"role": ASSISTANT, "content": "Health plan cardio coverage"},
     ]
 
     def __init__(
