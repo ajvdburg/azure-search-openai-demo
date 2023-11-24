@@ -9,17 +9,11 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Heb ik recht op vervoerskosten?",
-        value: "Heb ik recht op vervoerskosten?"
+        text: "What is included in my Northwind Health Plus plan that is not in standard?",
+        value: "What is included in my Northwind Health Plus plan that is not in standard?"
     },
-    { 
-        text: "Heb ik een aanvullend pensioen?", 
-        value: "Heb ik een aanvullend pensioen?" 
-    },
-    { 
-        text: "Welke regels zijn er rondom ontslag?", 
-        value: "Welke regels zijn er rondom ontslag?" 
-    }
+    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
+    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
 ];
 
 interface Props {
